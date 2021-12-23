@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-fs.copyFile('./README.md', './@pauliescanlon/gatsby-theme-terminal/README.md', (err) => {
+fs.copyFile('./README.md', './@chuan-khuna/gatsby-theme-terminal-altr/README.md', (err) => {
   if (err) {
     throw err
   }

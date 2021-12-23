@@ -50,7 +50,7 @@ module.exports = (themeOptions) => {
         options: {
           defaults: {
             quality: 80,
-            formats: ['auto', 'jpg', 'png', 'webp', 'avif'],
+            formats: ['auto', 'webp', 'avif'],
             placeholder: 'blurred',
           },
         },
@@ -83,7 +83,7 @@ module.exports = (themeOptions) => {
               resolve: 'gatsby-remark-wiki-link',
               options: {
                 stripBrackets: true,
-                stripDefinitionExts: ['.md', '.mdx']
+                stripDefinitionExts: ['.md', '.mdx'],
               },
             },
           ],

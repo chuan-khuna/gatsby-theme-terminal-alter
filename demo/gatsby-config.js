@@ -14,7 +14,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@pauliescanlon/gatsby-theme-terminal`,
+      resolve: `@chuan-khuna/gatsby-theme-terminal-altr`,
       options: {
         source: [
           {
